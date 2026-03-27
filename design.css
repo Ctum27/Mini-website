@@ -28,6 +28,9 @@
 .off-screen-menu.active {
     right: 0;
 }
+.off-screen-menu :hover{
+    color: #d6d4d0; 
+}
 
 nav {
 padding: 1rem;
