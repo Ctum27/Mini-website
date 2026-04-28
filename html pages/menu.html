@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="../css/design.css">
+    <link rel="stylesheet" href="../css/menud.css">
+      <script src="https://kit.fontawesome.com/7496066249.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+<nav>
+<img src="../images/LogoProyecto.png" alt="logo" class="nav-logo">  
+<span class="nav-title">Menu</span>
+<div class="ham-menu">
+<a href="../html pages/index.html"><i class="fa-solid fa-angle-left fa-2xl" style="color: rgb(0, 0, 0);"></i></a>
+</div>
+</nav>
+</header>
+
+<main> 
+
+    <div class="filter-buttons">
+  <button data-filter="all" class="button-m">Todos</button>
+  <button data-filter="starter" class="button-m">Entrantes</button>
+  <button data-filter="main" class="button-m">Principales</button>
+  <button data-filter="dessert" class="button-m">Postres</button>
+</div>
+
+<div class="menu-items">
+  <div class="item" data-category="starter">
+    <div class="dish" data-ingredients="Lechuga fresca, tomate cherry, cebolla morada, aceitunas negras, vinagreta balsámica"> <img src="../images/E1.avif" alt="salad" class="menui">
+      <h3>🥗 Salad </h3>
+    <p>$8.00</p>
+     <button class="details-btn">📋 Details</button> 
+    </div>
+    <div class="dish" data-ingredients="Pan tostado, tomate, ajo, albahaca"> <img src="../images/D1.jpg!w700wp" alt="dumpling" class="menui">
+      <h3> Dumpling </h3>
+    <p>$10.00</p>
+      <button class="details-btn">📋 Details</button> 
+    </div>
+    <div class="dish" data-ingredients="Carne molida, queso, lechuga, tomate  "> <img src="../images/Em1.png" alt="empanada" class="menui">
+      <h3> Empanada </h3>
+    <p>$7.00</p>
+       <button class="details-btn">📋 Details</button> 
+    </div>
+    <div class="dish" data-ingredients="Maíz, harina, huevo, leche"> <img src="../images/A1.png" alt="arepa" class="menui">
+      <h3> Arepa </h3>
+    <p>$5.00</p>
+       <button class="details-btn">📋 Details</button> 
+    </div>
+    <div class="dish" data-ingredients="Pan, tomate, ajo, albahaca"> <img src="../images/B.png" alt="bruschetta" class="menui">
+      <h3> Bruschetta </h3>
+    <p>$6.00</p>
+       <button class="details-btn">📋 Details</button> 
+    </div>
+    <div class="dish" data-ingredients="Pescado fresco, limón, cilantro"> <img src="../images/c.jpg" alt="ceviche" class="menui">
+      <h3> Ceviche </h3>
+    <p>$9.00</p>
+       <button class="details-btn">📋 Details</button> 
+    </div>
+  </div>
+
+  <div class="item" data-category="main">
+    <div class="dish" data-ingredients="Pasta, tomate, ajo, albahaca  "> <img src="../images/p.webp" alt="pasta" class="menui">
+      <h3>🍝 Pasta</h3>
+    <p>$12.00</p>
+       <button class="details-btn">📋 Details</button> 
+    </div>
+    <div class="dish" data-ingredients="Tacos, carne, lechuga, tomate"> <img src="../images/t.png" alt="tacos" class="menui">
+      <h3> Tacos </h3>
+    <p>$10.00</p>
+       <button class="details-btn">📋 Details</button> 
+    </div>
+    <div class="dish" data-ingredients="Arroz, pollo, verduras"> <img src="../images/bp.webp" alt="rice mix" class="menui">
+      <h3> Rice Mix </h3>
+    <p>$8.00</p>
+       <button class="details-btn">📋 Details</button> 
+    </div>
+    <div class="dish" data-ingredients="Carne de res, sal, pimienta"> <img src="../images/ca.png" alt="beef" class="menui">
+      <h3> Beef </h3>
+    <p>$15.00</p>
+       <button class="details-btn">📋 Details</button> 
+    </div>
+    <div class="dish" data-ingredients="Masa de pizza, salsa de tomate, queso"> <img src="../images/pn.webp" alt="pizza" class="menui">
+      <h3> Pizza </h3>
+    <p>$14.00</p>
+       <button class="details-btn">📋 Details</button> 
+    </div>
+    <div class="dish" data-ingredients="Arroz, mariscos, ajo"> <img src="../images/pa.png" alt="paella" class="menui">
+      <h3> Paella </h3>
+    <p>$16.00</p>
+       <button class="details-btn">📋 Details</button> 
+      </div>
+  </div>
+
+  <div class="item" data-category="dessert">
+    <div class="dish" data-ingredients="Bizcocho, crema, frutas"> <img src="../images/po.webp" alt="Tarta" class="menui">
+      <h3> 🍰 Tarta </h3>
+      <p>$4.00</p>
+         <button class="details-btn">📋 Details</button> 
+    </div>
+    <div class="dish" data-ingredients="Nieve, leche, azúcar"> <img src="../images/i.png" alt="Ice cream" class="menui">
+      <h3> 🍨 [Ice cream] </h3>
+      <p>$3.00</p>
+         <button class="details-btn">📋 Details</button> 
+    </div>
+    <div class="dish" data-ingredients="Masa, mantequilla, azúcar"> <img src="../images/cu.jpg" alt="Cupcake  " class="menui">
+      <h3> 🧁 Cupcake </h3>
+      <p>$2.50</p>  
+         <button class="details-btn">📋 Details</button> 
+    </div>
+  </div>
+</div>
+
+
+</main>
+
+
+
+
+
+<script src="../js/menuef.js"></script>
+
+
+<!-- Modal -->
+<div id="dishModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <img id="modal-img" src="" alt="" style="width: 100%; max-width: 200px; border-radius: 8px;">
+    <h2 id="modal-title"></h2>
+    <p id="modal-price"></p>
+    <p id="modal-ingredients">Ingredientes: </p>
+  </div>
+</div>
+
+</body>
+</html>
